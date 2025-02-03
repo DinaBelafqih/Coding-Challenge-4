@@ -81,3 +81,13 @@ let discountPercentage = 10; // Example discount percentage
 let discountedPrice = applyDiscount(price, discountPercentage);
 
 console.log(`Discounted price: $${discountedPrice}`);
+
+// Task 10: Arrow Functions
+const calculatePoints = (purchaseAmount) => {
+    return Math.floor(purchaseAmount / 10);
+};
+
+let purchaseAmount = 120; // Example purchase amount
+let points = calculatePoints(purchaseAmount);
+
+console.log(`Points earned: ${points}`);
